@@ -55,5 +55,11 @@ footer {
 
 
 @media screen and (min-width: 500px) {
-
+  .wrapper {
+    display: grid;
+    grid-template-areas:
+    "logo header header "
+    "nav about about"
+    "footer footer footer";
+  }
 }
