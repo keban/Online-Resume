@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
 .wrapper{
@@ -55,5 +55,5 @@ footer {
 
 
 @media screen and (min-width-width: 500px) {
-  
+
 }
