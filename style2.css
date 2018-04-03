@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+}
+
+.wrapper{
+  font-family: sans-serif;
+  color: #cbcbcb;
+  display: grid;
+  grid-template-areas:
+  "logo"
+  "header"
+  "nav"
+  "about"
+  "personalpj"
+  "contact"
+  "footer";
+  grid-gap: 10px;
+}
+
+header {
+  grid-area: header;
+  background-color: #252525;
+}
+
+.logo {
+  grid-area: logo;
+  background-color: #252525;
+  align-content: center;
+}
+
+nav {
+  grid-area: nav;
+  background-color: #252525;
+}
+
+.about {
+  background-color: #252525;
+  grid-area: about;
+}
+
+.personalpj {
+  grid-area: personalpj;
+  background-color: #252525;
+}
+
+.contact {
+  grid-area: contact;
+  background-color: #252525;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #252525;
+}
+
+
+@media screen and (min-width-width: 500px) {
+  
+}
