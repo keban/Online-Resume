@@ -11,8 +11,8 @@ body {
   "header"
   "nav"
   "about"
-  "personalpj"
-  "contact"
+  /* "personalpj"
+  "contact" */
   "footer";
   grid-gap: 10px;
 }
