@@ -11,20 +11,23 @@ p {
 
 .wrapper{
   font-family: 'Oswald', sans-serif;
+  text-align: center;
   display: grid;
-
   grid-template-areas:
   "logo"
   "header"
   "nav"
   "about"
   "footer";
-  grid-gap: 10px;
 }
-header {grid-area: header;}
+header {
+  grid-area: header;
+  align-content: center;
+}
 .logo {
   grid-area: logo;
-  align-content: center;
+  width: 30%;
+  height: 30%;
 }
 nav {grid-area: nav;}
 .about {grid-area: about;}
@@ -33,7 +36,7 @@ nav {grid-area: nav;}
 footer {grid-area: footer;}
 
 
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
   .wrapper {
     display: grid;
     grid-template-areas:
@@ -41,4 +44,4 @@ footer {grid-area: footer;}
     "nav about about"
     "footer footer footer";
   }
-}
+} */
