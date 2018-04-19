@@ -12,22 +12,20 @@ p {
 .wrapper{
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  display: grid;
+  /* display: grid;
   grid-template-areas:
   "logo"
   "header"
   "nav"
   "about"
-  "footer";
+  "footer"; */
 }
 header {
   grid-area: header;
-  align-content: center;
+  display: inline-block;
 }
 .logo {
   grid-area: logo;
-  width: 30%;
-  height: 30%;
 }
 nav {grid-area: nav;}
 .about {grid-area: about;}
