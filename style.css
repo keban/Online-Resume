@@ -22,10 +22,16 @@ p {
 }
 header {
   grid-area: header;
-  display: inline-block;
+
 }
 .logo {
-  grid-area: logo;
+  /* grid-area: logo; */
+  display: inline-block;
+  align-items: center;
+  background-color: blue;
+}
+h1, h2 {
+  margin: 0;
 }
 nav {grid-area: nav;}
 .about {grid-area: about;}
