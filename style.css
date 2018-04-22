@@ -39,3 +39,13 @@ header {
   width: 3%;
   min-width: 50px;
 }
+
+nav {
+  display: table;
+  margin: 0 auto;
+}
+
+nav li {
+  display: inline-block;
+  margin: 5px;
+}
