@@ -34,7 +34,8 @@ header {
 
 .burger {
   position: absolute;
-  top: 0;
-  right: 0.4%;
+  top: 0.5%;
+  right: 0.5%;
   width: 3%;
+  min-width: 50px;
 }
