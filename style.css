@@ -10,7 +10,7 @@ p {
   text-align: center;
 }
 header {
-  background: url(../images/mountain.jpg) no-repeat center;
+  background: url(../images/mountain-fade.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
 }
@@ -30,9 +30,9 @@ header {
 }
 
 .logo h1 {
-    font-size: 3vw;
+    font-size: 3.6vw;
 }
 
 .logo h2 {
-    font-size: 1.5vw;
+    font-size:2vw;
 }
