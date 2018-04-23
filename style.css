@@ -10,7 +10,8 @@ p {
   text-align: center;
 }
 header {
-  background: url(../images/mountain-fade.jpg) no-repeat center;
+  background: url(../images/mountain.jpg) no-repeat center;
+  /* background: -webkit-linear-gradient(0deg, rgba(255,255,255,0.1) 0%, rgba(0,255,255,0.2) 100%); */
   background-size: cover;
   height: 100vh;
 }
