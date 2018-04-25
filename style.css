@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
 }
