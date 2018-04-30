@@ -14,6 +14,14 @@ p {
   text-align: center;
 }
 
+.burger {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  width: 5vw;
+  min-width: 50px;
+}
+
 header {
   background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,1) 100%), url(../images/mountain.jpg) no-repeat center;
   background-size: cover;
@@ -36,14 +44,6 @@ header {
   font-size: 2vw;
 }
 
-.burger {
-  position: absolute;
-  top: 2vw;
-  right: 2vw;
-  width: 5vw;
-  min-width: 50px;
-}
-
 nav {
   display: table;
   margin: 0 auto;
@@ -52,4 +52,12 @@ nav {
 nav li {
   display: inline-block;
   margin: 5px;
+}
+
+.ppj {
+  margin: 0 5% 0 5%;
+}
+
+.ppj li {
+  background-color: blue;
 }
