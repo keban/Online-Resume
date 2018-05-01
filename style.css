@@ -59,5 +59,11 @@ nav li {
 }
 
 .ppj li {
+  display: inline-block;
+  margin: 2vh auto;
   background-color: blue;
+  height: 10vh;
+  width: 25vw;
+  min-width: 300px;
+  min-height: 200px;
 }
