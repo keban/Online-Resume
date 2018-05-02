@@ -64,9 +64,9 @@ nav li {
 
 .ppj li {
   display: inline-block;
-  margin: 2vh auto;
+  margin: 2vw auto;
   background-color: gray;
-  height: 10vh;
+  height: 20vw;
   width: 25vw;
   min-width: 300px;
   min-height: 200px;
