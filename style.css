@@ -6,23 +6,11 @@ body {
 }
 
 h1 {
-  font-size: 3.5vw;
+  font-size: 30px;
 }
 
 h2 {
-  font-size: 2vw;
-}
-
-h3 {
-  font-size: 3vw;
-}
-
-h4 {
-  font-size: 2.5vw;
-}
-
-h5 {
-  font-size: 2vw;
+  font-size: 17px;
 }
 
 p {
@@ -36,10 +24,9 @@ p {
 
 .burger {
   position: absolute;
-  top: 2vw;
-  right: 2vw;
-  width: 5vw;
-  min-width: 50px;
+  top: 5px;
+  right: 5px;
+  width: 50px;
 }
 
 header {
@@ -48,12 +35,18 @@ header {
   height: 100vh;
 }
 
+.title {
+  position:absolute;
+  top: 5px;
+  left: 5px;
+}
+
 .logo {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 20%;
-  margin: -13% 0 0 -10%;
+  width: 200px;
+  margin: -100px 0 0 -100px;
 }
 
 nav {
@@ -67,7 +60,7 @@ nav li {
 }
 
 .about {
-  margin: 0 10vw 0 10vw;
+  margin: 0 5px 0 5px;
 }
 
 .ppj {
@@ -76,10 +69,8 @@ nav li {
 
 .ppj li {
   display: inline-block;
-  margin: 2vw auto;
+  margin: 2px auto;
   background-color: gray;
-  height: 20vw;
-  width: 30vw;
-  min-width: 300px;
-  min-height: 200px;
+  width: 300px;
+  height: 200px;
 }
