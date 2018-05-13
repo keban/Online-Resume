@@ -6,11 +6,11 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: calc(27px + 0.9vw);
 }
 
 h2 {
-  font-size: 17px;
+  font-size: calc(15.5px + 0.5vw);
 }
 
 p {
@@ -24,9 +24,9 @@ p {
 
 .burger {
   position: absolute;
-  top: 5px;
-  right: 5px;
-  width: 50px;
+  top: calc(1px + 1vw);
+  right: calc(1px + 1vw);
+  width: calc(40px + 1vw);
 }
 
 header {
@@ -36,17 +36,18 @@ header {
 }
 
 .title {
+  text-align: left;
   position:absolute;
-  top: 5px;
-  left: 5px;
+  top: calc(1px + 1vw);
+  left: calc(1px + 1vw);
 }
 
 .logo {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 200px;
-  margin: -100px 0 0 -100px;
+  width: calc(150px + 5vw);
+  transform: translate(-50%, -50%);
 }
 
 nav {
@@ -60,11 +61,11 @@ nav li {
 }
 
 .about {
-  margin: 0 5px 0 5px;
+  margin: 0 5px;
 }
 
 .ppj {
-  margin: 0 5% 0 5%;
+  margin: 0 5%;
 }
 
 .ppj li {
