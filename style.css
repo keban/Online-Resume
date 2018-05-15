@@ -13,6 +13,10 @@ h2 {
   font-size: calc(15.5px + 0.5vw);
 }
 
+h3 {
+  font-size: calc(20px + 0.5vw);
+}
+
 p {
   font-family: 'Roboto', sans-serif;
 }
@@ -61,7 +65,19 @@ nav li {
 }
 
 .about {
-  margin: 0 5px;
+  background-color: black;
+  color: white;
+}
+
+.about-left{
+  background-color: inherit;
+  width: 50%;
+  float: left;
+}
+
+.about-right {
+  width: 50%;
+  float: left;
 }
 
 .ppj {
