@@ -67,15 +67,15 @@ nav li {
 
 .about {
   color: white;
-  height: calc(150px + 5vw)
+  height: calc(300px + 5vw);
+  background-color: black;
 }
 
 .about-left{
   width: 50%;
-  height: 300px;
+  height: calc(300px + 5vw);
   float: left;
   text-align: right;
-  background-color: black;
 }
 
 .about-left h3 {
@@ -84,12 +84,13 @@ nav li {
 
 .about-right {
   width: 50%;
+  heigt:100%;
   float: left;
+  text-align:left;
 }
 
 .about-right img {
-  width: 100%;
-  /* max-height: 400px; */
+  max-height: calc(300px + 5vw);
 }
 
 .ppj {
