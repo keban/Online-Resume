@@ -20,6 +20,7 @@ h3 {
 
 p {
   font-family: 'Roboto', sans-serif;
+  font-size: calc(12px + 0.5vw);
 }
 
 .wrapper{
@@ -38,13 +39,6 @@ header {
   background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,1) 100%), url(../images/mountain.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
-}
-
-.title {
-  text-align: left;
-  position:absolute;
-  top: calc(1px + 1vw);
-  left: calc(1px + 1vw);
 }
 
 .logo {
@@ -69,12 +63,18 @@ nav li {
   color: white;
   height: calc(300px + 5vw);
   background-color: black;
+  padding: 0 5vw;
+}
+
+.about-left .about-right {
+  display: inline-block;
 }
 
 .about-left{
   width: 50%;
+  /* max-width: 300px; */
   height: calc(300px + 5vw);
-  float: left;
+  float:left;
   text-align: right;
 }
 
@@ -85,7 +85,7 @@ nav li {
 .about-right {
   width: 50%;
   heigt:100%;
-  float: left;
+  float: right;
   text-align:left;
 }
 
