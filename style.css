@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
@@ -61,25 +61,32 @@ nav li {
 
 .about {
   color: white;
-  height: calc(300px + 5vw);
+  height: calc(350px + 5vw);
   background-color: black;
   padding: 0 5vw;
 }
 
-.about-left .about-right {
-  display: inline-block;
-}
-
 .about-left{
   width: 50%;
-  /* max-width: 300px; */
-  height: calc(300px + 5vw);
-  float:left;
+  height: calc(350px + 5vw);
+  float: left;
   text-align: right;
 }
 
 .about-left h3 {
   margin-right: 0;
+}
+
+button {
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  color: black;
+  border: none;
+}
+
+button:focus {
+  outline: 0;
 }
 
 .about-right {
@@ -90,7 +97,7 @@ nav li {
 }
 
 .about-right img {
-  max-height: calc(300px + 5vw);
+  height: calc(350px + 5vw);
 }
 
 .ppj {
