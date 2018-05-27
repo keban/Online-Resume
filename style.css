@@ -61,12 +61,8 @@ nav li {
 
 .about {
   color: white;
-  max-width: 100%;
-  height: calc(350px + 5vw);
   background-color: black;
   padding: 0 5vw;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .about-content {
@@ -97,6 +93,7 @@ button:focus {
 
 #about-right {
   text-align: left;
+  max-width: 30%;
 }
 
 #about-right img {
