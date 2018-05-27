@@ -61,22 +61,22 @@ nav li {
 
 .about {
   color: white;
-  width: 100%;
+  max-width: 100%;
   height: calc(350px + 5vw);
   background-color: black;
   padding: 0 5vw;
   text-align: center;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .about-content {
   display: inline-block;
-  width: 40%;
 }
 
 #about-left{
-  /* max-width: 200px; */
+  max-width: 30%;
   text-align: right;
+  vertical-align: top;
 }
 
 #about-left h3 {
@@ -93,6 +93,10 @@ button {
 
 button:focus {
   outline: 0;
+}
+
+#about-right {
+  text-align: left;
 }
 
 #about-right img {
