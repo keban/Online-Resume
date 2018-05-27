@@ -61,19 +61,25 @@ nav li {
 
 .about {
   color: white;
+  width: 100%;
   height: calc(350px + 5vw);
   background-color: black;
   padding: 0 5vw;
+  text-align: center;
+  /* margin: 0 auto; */
 }
 
-.about-left{
-  width: 50%;
-  height: calc(350px + 5vw);
-  float: left;
+.about-content {
+  display: inline-block;
+  width: 40%;
+}
+
+#about-left{
+  /* max-width: 200px; */
   text-align: right;
 }
 
-.about-left h3 {
+#about-left h3 {
   margin-right: 0;
 }
 
@@ -89,14 +95,7 @@ button:focus {
   outline: 0;
 }
 
-.about-right {
-  width: 50%;
-  heigt:100%;
-  float: right;
-  text-align:left;
-}
-
-.about-right img {
+#about-right img {
   height: calc(350px + 5vw);
 }
 
