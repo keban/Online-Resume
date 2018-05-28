@@ -67,10 +67,11 @@ nav li {
 
 .about-content {
   display: inline-block;
+  width: 48%;
+  max-width: 500px;
 }
 
 #about-left{
-  max-width: 30%;
   text-align: right;
   vertical-align: top;
 }
@@ -93,7 +94,6 @@ button:focus {
 
 #about-right {
   text-align: left;
-  max-width: 30%;
 }
 
 #about-right img {
