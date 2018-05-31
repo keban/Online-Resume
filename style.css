@@ -104,10 +104,9 @@ button:focus {
   margin: 0 5%;
 }
 
-.ppj li {
+.pj-preview li {
   display: inline-block;
-  margin: 2px auto;
   background-color: gray;
-  width: calc(250px + 2.5vw);
-  height: calc(150px + 1.5vw);
+  padding: 10px;
+  border-radius: 20px;
 }
