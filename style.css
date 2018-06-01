@@ -113,11 +113,8 @@ button:focus {
 .pj-preview {
   width: calc(200px + 10vw);
   margin: 0 0 calc(10px + 1vw) 0;
-  background-color: lightgray;
 }
-/* .pj-preview ul{
-  margin: calc(5px + 0.5vw) 0;
-} */
+
 .pj-preview li {
   display: inline-block;
   background-color: gray;
