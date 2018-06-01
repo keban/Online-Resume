@@ -18,6 +18,11 @@ h3 {
   margin: calc(20px + 1vw);
 }
 
+h4 {
+  font-size: calc(15px + 0.5vw);
+  margin: calc(5px + 0.5vw);
+}
+
 p {
   font-family: 'Roboto', sans-serif;
   font-size: calc(12px + 0.5vw);
@@ -102,11 +107,25 @@ button:focus {
 
 .ppj {
   margin: 0 5%;
+  display: inline-block;
 }
 
+.pj-preview {
+  width: calc(200px + 10vw);
+  margin: 0 0 calc(10px + 1vw) 0;
+  background-color: lightgray;
+}
+/* .pj-preview ul{
+  margin: calc(5px + 0.5vw) 0;
+} */
 .pj-preview li {
   display: inline-block;
   background-color: gray;
   padding: 10px;
   border-radius: 20px;
+  margin: calc(5px + 0.5vw) 0;
+}
+
+.pj-preview img {
+  width: calc(200px + 10vw);
 }
