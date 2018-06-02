@@ -54,6 +54,10 @@ header {
   transform: translate(-50%, -50%);
 }
 
+/* .logo img {
+  width: calc(150px + 5vw);
+} */
+
 nav {
   display: table;
   margin: 0 auto;
