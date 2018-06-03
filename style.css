@@ -46,7 +46,7 @@ header {
   height: 100vh;
 }
 
-.logo {
+.title {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -118,8 +118,8 @@ button:focus {
 .pj-preview li {
   display: inline-block;
   background-color: gray;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 5px;
+  border-radius: 7px;
   margin: calc(5px + 0.5vw) 0;
 }
 
