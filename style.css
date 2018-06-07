@@ -43,7 +43,7 @@ p {
 }
 
 header {
-  background: linear-gradient(180deg, rgba(234,234,234,0.3) 0%, rgba(234,234,234,1) 100%), url(../images/mountain.jpg) no-repeat center;
+  background: linear-gradient(180deg, rgba(234,234,234,0.3) 0%, rgba(234,234,234,1) 100%), url(images/mountain.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
 }
