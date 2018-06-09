@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,600');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400');
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -26,7 +26,8 @@ h4 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
   font-size: calc(12px + 0.5vw);
 }
 
@@ -120,12 +121,16 @@ button:focus {
   margin: 0 0 calc(10px + 1vw) 0;
 }
 
+.pj-preview img {
+  margin: calc(5px + 0.5vw) 0;
+
+}
+
 .pj-preview li {
   display: inline-block;
   background-color: gray;
   padding: 5px;
   border-radius: 7px;
-  margin: calc(5px + 0.5vw) 0;
 }
 
 .pj-preview img {
