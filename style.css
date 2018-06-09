@@ -117,8 +117,9 @@ button:focus {
 }
 
 .pj-preview {
-  width: calc(200px + 10vw);
-  margin: 0 0 calc(10px + 1vw) 0;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .pj-preview img {
@@ -134,5 +135,6 @@ button:focus {
 }
 
 .pj-preview img {
-  width: calc(200px + 10vw);
+  width: 100%;
+  max-width: 800px;
 }
