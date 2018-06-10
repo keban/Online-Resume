@@ -77,19 +77,24 @@ nav li {
   padding: 0 5vw;
 }
 
+.about h3 {
+  margin-left: 0;
+}
+
 .about-content {
   display: inline-block;
   width: 48%;
   max-width: 500px;
 }
 
-#about-left{
-  text-align: right;
-  vertical-align: top;
+#about-top {
+  width: 100%;
+  text-align: left;
 }
 
-#about-left h3 {
-  margin-right: 0;
+#about-left{
+  text-align: left;
+  vertical-align: top;
 }
 
 button {
