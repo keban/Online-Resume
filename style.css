@@ -77,26 +77,6 @@ nav li {
   padding: 0 5vw;
 }
 
-.about h3 {
-  margin-left: 0;
-}
-
-.about-content {
-  display: inline-block;
-  width: 48%;
-  max-width: 500px;
-}
-
-#about-top {
-  width: 100%;
-  text-align: left;
-}
-
-#about-left{
-  text-align: left;
-  vertical-align: top;
-}
-
 button {
   background-color: #eaeaea;
   font-family: 'Oswald', sans-serif;
@@ -107,14 +87,6 @@ button {
 
 button:focus {
   outline: 0;
-}
-
-#about-right {
-  text-align: left;
-}
-
-#about-right img {
-  height: calc(350px + 5vw);
 }
 
 .ppj {
