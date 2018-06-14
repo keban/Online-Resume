@@ -4,7 +4,11 @@
 body {
   -webkit-font-smoothing: antialiased;
   color: #202020;
-  background-color: #eaeaea;
+  background-color: #fff;
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {
@@ -32,19 +36,18 @@ p {
 }
 
 .wrapper{
-  font-family: 'Oswald', sans-serif;
   text-align: center;
 }
 
 .burger {
   position: absolute;
-  top: calc(1px + 1vw);
-  right: calc(1px + 1vw);
+  top: calc(2px + 1vw);
+  right: calc(2px + 1vw);
   width: calc(40px + 1vw);
 }
 
 header {
-  background: linear-gradient(180deg, rgba(234,234,234,0.3) 0%, rgba(234,234,234,1) 100%), url(images/mountain.jpg) no-repeat center;
+  background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,1) 100%), url(images/mountain.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
 }
@@ -72,13 +75,13 @@ nav li {
 }
 
 .about {
-  color: #eaeaea;
+  color: #f5f5f5;
   background-color: #202020;
   padding: 0 5vw;
 }
 
 button {
-  background-color: #eaeaea;
+  background-color: #fff;
   font-family: 'Oswald', sans-serif;
   font-weight: 600;;
   color: #292929;
