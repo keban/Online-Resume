@@ -3,7 +3,7 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  color: #202020;
+  color: #fff;
   background-color: #151c1f;
 }
 
@@ -12,9 +12,9 @@ h1, h2, nav {
   color: rgba(0,228,255,0.7);
 }
 
-h1, h2 {
-  text-shadow: 0px 0px 4px rgba(0,228,255,0.4);
-}
+/* h1, h2 {
+  text-shadow: 0px 0px 5px rgba(0,228,255,0.7);
+} */
 
 h1 {
   font-size: calc(27px + 0.9vw);
@@ -67,7 +67,7 @@ header {
 
 .logo, .brgr-menu {
   fill: rgba(0,228,255,0.7);
-  filter: drop-shadow(0px 0px 4px rgba(0,228,255,0.4));
+  /* filter: drop-shadow(0px 0px 5px rgba(0,228,255,0.7)); */
 }
 
 nav {
