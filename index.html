@@ -4,7 +4,7 @@
 
 <head>
 	<title>Kevin Quinto Online Resume test 3</title>
-	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,7 +13,12 @@
 <div class="wrapper">
 
 <header>
-	<div class="title">
+	<div>
+		<h1>Kevin Quinto</h1>
+		<h2>Front end web developer with a passion for creating beautiful and functional web interfaces.</h2>
+	</div>
+
+	<div class="logotop">
 		<svg class="logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 100">
 			<path display="none" d="M91.8,90v61.2H612V90H91.8z M596.7,135.9H107.1v-30.6h489.6V135.9z"/>
 			<path display="none" d="M0,640.8V702h520.2v-61.2H0z M504.9,686.7H15.3V656.1H504.9V686.7z"/>
@@ -23,27 +28,27 @@
 			<polygon points="0,90 2.5,90 2.5,97.5 85,97.5 85,100 0,100 "/>
 			<polygon points="15,0 15,2.5 97.5,2.5 97.5,10 100,10 100,0 "/>
 		</svg>
-		<h1>KEVIN QUINTO</h1>
-		<h2>Front-End Web Developer</h2>
 	</div>
+
 	<div class="burger">
 		<svg class="brgr-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" x="0px" y="0px">
 		  <g><rect y="0" width="150" height="20"/><rect y="40" width="150" height="20"/><rect y="80" width="150" height="20"/></g>
 		</svg>
 	</div>
+
 </header>
 
 <nav>
 	<ul>
-		<li>About Me</li>
-		<li>Personal Projects</li>
-		<li>Contact</li>
+		<li>About<span class="dotcolor">.</span></li>
+		<li>Personal Projects<span class="dotcolor">.</span></li>
+		<li>Contact<span class="dotcolor">.</span></li>
 	</ul>
 </nav>
 
 <section class="about">
 	<div id="about-top" class="about-content">
-		<h3>Bonjour</br>
+		<h3>Bonjour,</br>
 		I'm Kevin Quinto</h3>
 		<p>I’m a front end web developer based in Geneva with a strong passion for creating beautiful and functional web interfaces.</br></br>
 		Employed in the tech support field for some time now, I am ready to go forward and pursue a career change into web development.</br></br>
@@ -52,153 +57,57 @@
 	</div>
 
 	<div id="about-left" class="about-content">
-		<h4>Work Experience</h4>
+		<h4 class="dotcolor">WORK EXPERIENCE</h4>
 		<ul>
 			<li>
-				<div>
-					<h5>Deloitte</h5>
-					<h6>Senior Technical Support Analyst</h6>
-					<p>January 2015 - Present</p>
-				</div>
+				<h5>Deloitte</h5>
+				<p>Technical Support Analyst <span class="dotcolor">01/2015 - Present</span></p>
 			</li>
 			<li>
-				<div>
-					<h5>Sword Group</h5>
-					<h6>Service Desk Specialist</h6>
-					<p>February 2014 - December 2014</p>
-				</div>
+				<h5>Sword Group</h5>
+				<p>Service Desk Specialist <span class="dotcolor">02/2014 - 12/2014</span></p>
 			</li>
 			<li>
-				<div>
-					<h5>Alltitude</h5>
-					<h6>On-Site Support Analyst</h6>
-					<p>January 2014 - February 2014</p>
-				</div>
+				<h5>Alltitude</h5>
+				<p>On-Site Support Analyst <span class="dotcolor">01/2014 - 02/2014</span></p>
 			</li>
 			<li>
-				<div>
-					<h5>International Telecommunication Union</h5>
-					<h6>Information Systems Officer</h6>
-					<p>August 2011 - May 2013</p>
-				</div>
+				<h5>International Telecommunication Union</h5>
+				<p>Information Systems Officer <span class="dotcolor">08/2011 - 05/2013</span></p>
 			</li>
 			<li>
-				<div>
-					<h5>InterHyve</h5>
-					<h6>IT Technician</h6>
-					<p>June 2007 - July 2011</p>
-				</div>
+				<h5>InterHyve Systems</h5>
+				<p>IT Technician <span class="dotcolor">06/2007 - 02/2011</span></p>
 			</li>
 			<li>
-				<div>
-					<h5>World Meteorological Organization</h5>
-					<h6>IT Assistant</h6>
-					<p>February 2007 - April 2007</p>
-				</div>
+				<h5>World Meteorological Organization</h5>
+				<p>IT Assistant <span class="dotcolor">02/2007 - 02/2007</span></p>
 			</li>
 			<li>
-				<div>
-					<h5>International Telecommunication Union</h5>
-					<h6>Web Publishing Assistant</h6>
-					<p>February 2006 - April 2006</p>
-				</div>
+				<h5>International Telecommunication Union</h5>
+				<p>Web Publishing Assistant <span class="dotcolor">02/2006 - 04/2006</span></p>
 			</li>
 		</ul>
 	</div>
 
 	<div id="about-right" class="about-content">
-		<h4>Skillset</h4>
-			<ul>
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>JavaScript</li>
-				<li>jQuery</li>
-				<li>Bootstrap</li>
-				<li>Wordpress</li>
-				<li>Git</li>
-				<li>Photoshop</li>
-			</ul>
+		<h4 class="dotcolor">SKILLSET</h4>
+		<ul>
+			<li>HTML5</li>
+			<li>CSS3</li>
+			<li>JavaScript</li>
+			<li>jQuery</li>
+			<li>Bootstrap</li>
+			<li>Wordpress</li>
+			<li>Git</li>
+			<li>Photoshop</li>
+		</ul>
 
 	</div>
 </section>
 
 <section class="ppj">
-	<h3>Personal Projects</h3>
-	<ul>
-		<li>
-			<div class="pj-preview">
-				<img src="images/preview.jpg" alt="">
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-				</ul>
-				<h4>Melody Karaoke Bar</h4>
-				<p>Static responsive one pager site created for a karaoke bar located in Quang Ninh, Vietnam.</p>
-			</div>
-		</li>
-		<li>
-			<div class="pj-preview">
-				<img src="images/preview.jpg" alt="">
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-				</ul>
-				<h4>KQ Photography</h4>
-				<p>My personal website for photography.</p>
-			</div>
-		</li>
-		<li>
-			<div class="pj-preview">
-				<img src="images/preview.jpg" alt="">
-				<ul>
-					<li>Wordpress</li>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-				</ul>
-				<h4>Black and Yellow Basketball</h4>
-				<p>Basketball team website created for my friends using Wordpress which allows them to manage the content themselves.</p>
-			</div>
-		</li>
-		<li>
-			<div class="pj-preview">
-				<img src="images/preview.jpg" alt="">
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-				</ul>
-				<h4>Le Bonheur Restaurant</h4>
-				<p>Static website for a local restaurant in Geneva.</p>
-			</div>
-		</li>
-		<li>
-			<div class="pj-preview">
-				<img src="images/preview.jpg" alt="">
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-				</ul>
-				<h4>Under construction</h4>
-				<p>Website under construction.</p>
-			</div>
-		</li>
-		<li>
-			<div class="pj-preview">
-				<img src="images/preview.jpg" alt="">
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-				</ul>
-				<h4>Under construction</h4>
-				<p>Website under construction.</p>
-			</div>
-		</li>
-	</ul>
+
 </section>
 
 <section class="contact">
