@@ -40,14 +40,43 @@ h5 {
   font-size: calc(10px + 0.5vw);
 }
 
+<<<<<<< HEAD
 p {
   font-weight: 300;
   font-size: 1rem;
   line-height: 150%;
 }
 
+=======
+>>>>>>> de7daa4d08e82f07cd23519351a107570c8bd902
 .wrapper {
   text-align: center;
+}
+
+header {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 100%), url(images/montblanc.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  text-align: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 500px;
+}
+
+.logo, .brgr-menu {
+  fill: rgba(179,142,53,1);
+}
+
+.logotop {
+  position: absolute;
+  top: calc(2px + 1vw);
+  left: calc(2px + 1vw);
+  width: calc(70px + 1vw);
 }
 
 .burger {
@@ -57,23 +86,16 @@ p {
   width: calc(40px + 1vw);
 }
 
-header {
-  background: linear-gradient(180deg, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 100%), url(images/montblanc.jpg) no-repeat center;
-  background-size: cover;
-  height: 100vh;
-}
-
-
-
-.logotop {
+.social {
+  color: #333;
   position: absolute;
-  top: calc(2px + 1vw);
-  left: calc(2px + 1vw);
-  width: calc(70px + 1vw);
+  bottom: calc(2px + 1vw);
+  right: calc(2px + 1vw);
 }
 
-.logo, .brgr-menu {
-  fill: rgba(179,142,53,1);
+.social li {
+  display: inline-block;
+  margin: 5px;
 }
 
 nav {
@@ -88,8 +110,12 @@ nav li {
 
 .about {
   color: #f5f5f5;
-  padding: 0 5vw;
   text-align: left;
+  padding: 0 5vw;
+}
+
+.about-content {
+  width: 50%;
 }
 
 button {
