@@ -31,16 +31,23 @@ h2 {
 
 h3 {
   font-weight: 700;
-  font-size: calc(20px + 0.5vw);
+  font-size: calc(20px + 0.5vw:);
 }
 
 h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: rgb(179,142,53);
+}
+
+h5 {
   font-weight: 700;
   font-size: 0.688rem;
   margin: 8px 0;
 }
 
-h5 {
+h6 {
   font-weight: 400;
   font-size: calc(10px + 0.5vw);
 }
@@ -108,6 +115,35 @@ nav {
 nav li {
   display: inline-block;
   margin: 5px;
+}
+
+.work {
+  margin: 0 auto;
+  max-width: 60%;
+  display: grid;
+  grid-template-areas:
+  "pj1 pj1 pj2"
+  "pj3 pj4 pj2";
+}
+
+.melody {
+  background-color: red;
+  grid-area: pj1;
+}
+
+.bny {
+  background-color: blue;
+  grid-area: pj2;
+}
+
+.pj3 {
+  background-color: green;
+  grid-area: pj3;
+}
+
+.pj4 {
+  background-color: grey;
+  grid-area: pj4;
 }
 
 .about {
