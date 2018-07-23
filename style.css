@@ -37,7 +37,7 @@ h3 {
 h4 {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(179,142,53);
 }
 
@@ -121,6 +121,7 @@ nav li {
   margin: 0 auto;
   max-width: 60%;
   display: grid;
+  grid-gap: 5px;
   grid-template-areas:
   "pj1 pj1 pj2"
   "pj3 pj4 pj2";
