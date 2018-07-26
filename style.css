@@ -44,7 +44,7 @@ h4 {
 h5 {
   font-weight: 700;
   font-size: 0.688rem;
-  margin: 8px 0;
+  margin: 50px 0 20px 0;
 }
 
 h6 {
@@ -155,6 +155,10 @@ nav li {
 
 .about-content {
   width: 50%;
+}
+
+.about p {
+  margin-bottom: 20px;
 }
 
 button {
